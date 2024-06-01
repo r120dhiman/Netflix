@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    color: white;
+}
+.super{
+    width: 100vw;
+}
+.bg img {
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+}
+
+.black {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.536);
+    width: 100vw;
+    height: 700px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.boxes {
+    background-color: black;
+}
+
+.nav img {
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+#language {
+    width: 100px;
+    height: 33px;
+    background-color: transparent;
+    border: 1px solid gray;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.info button {
+    background-color: red;
+    width: 100px;
+    height: 33px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.info {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mail img {
+    width: 20px;
+    height: 20px;
+}
+
+.main {
+    margin: auto;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail input ::placeholder {}
+
+.mail input {
+    height: 50px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.618);
+    border: 1px solid grey;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.mail button {
+    background-color: red;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0px 2px;
+}
+
+.part {
+    display: flex;
+    /* top: -4px; */
+    position: relative;
+    width: 100vw;
+    height: 5px;
+    background-color: rgb(78, 73, 73);
+}
+
+.box {
+    display: flex;
+    width: 85vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 700px;
+    background-color: black;
+}
+
+.media {
+    position: relative;
+}
+
+.box1 .media img {
+    width: 700px;
+    /* height: 70vh; */
+}
+
+.box1 .media video {
+    width: 550px;
+    /* height: 70vh; */
+}
+
+.media video {
+    position: absolute;
+    top: 80px;
+    left: 13%;
+}
+
+.media img {
+    position: relative;
+    z-index: 10;
+}
+
+.secondimg img {
+    width: 50px;
+}
+
+#download {
+    width: 50px;
+}
+
+.secondimg {
+    width: 285px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    left: 130px;
+    margin: auto;
+    background-color: black;
+    border-radius: 7px;
+    justify-content: space-evenly;
+    display: flex;
+    border: 1px solid grey;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.box2 .media .imgbox {
+    width: 550px;
+    /* height: 60vh; */
+}
+
+.innertext p {
+    color: blue;
+}
+
+.box3 .media video {
+
+    width: 428px;
+    position: absolute;
+    top: 40px;
+    left: 16%;
+
+}
+
+.box4 .media img {
+    width: 30vw;
+}
+
+.qna {
+    background-color: black;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.question {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.qa {
+    background-color: rgb(54, 52, 52);
+    margin: -5px 0px;
+    padding: 12px;
+    width: 70vw;
+    font-weight: 400;
+    font-size: 1.8em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+.qna h1 {
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.qna .para {
+    /* margin: 50px; */
+    justify-self: center;
+}
+
+.footer {
+    background-color: black;
+
+    margin: auto;
+}
+
+.footer p {
+    padding: 30px;
+    padding-left: 105px;
+    /* margin: 30px; */
+    background-color: black;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    margin: auto;
+    padding: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+a {
+    color: rgb(190, 193, 195);
+}
+
+.last #language {
+    margin-bottom: 30px;
+}
+
+.last {
+    padding: 20px;
+    padding-left: 105px;
+}
+
+/* meida queries starts form here  */
+@media screen and (max-width:950px) and (min-width:600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .nav img {
+        width: 100px;
+        height: 25px;
+    }
+
+    .black {
+        display: grid;
+    }
+
+    .nav {
+        width: 90vw;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:950px) {
+    .box1 .media img {
+        width: 50vw;
+        /* height: 50vh; */
+
+    }
+
+    .box1 .media video {
+        top: 10vh;
+        width: 39vw;
+        /* height: 25vh; */
+    }
+
+    .box {
+        height: 500px;
+    }
+
+    .box2 .media .imgbox {
+        width: 40vw;
+        object-fit: cover;
+    }
+
+    /* .box2 .media{
+        position: relative;
+    } */
+    .secondimg {
+
+        position: static;
+
+    }
+}
+
+@media screen and (max-width:955px) {
+    .box {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .media {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 .media video {
+
+
+        top: 63px;
+        /* right: -26px; */
+        height: 17vh;
+        left: -62px;
+    }
+
+    .box1 .media img {
+        width: 42vh;
+    }
+
+    .text {
+        justify-self: center;
+        max-width: 80vw;
+        text-align: center;
+    }
+    .box2 .media .imgbox{
+        width: 90vw;
+    }
+    .secondimg{
+        left: 20vw;
+        top: 25vh;
+        width: 60vw;
+        height: 10vh;
+    }
+    .box1 {
+        height: 550px;
+    }
+.box3 .media img{
+    height:30vh;
+}
+.box3 .media video{
+    top: 29px;
+    left: -31px;
+    height: 15vh;
+}
+    .nav img {
+        width: 25vw;
+        height: 3vh;
+    }
+
+    h1 {
+        font-size: 32px
+    }
+
+    .para {
+        font-size: 18px
+    }
+
+    .info buttton {
+        width: 20vw;
+    }
+
+    .mail {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mail input {
+        width: 70vw;
+        justify-self: center;
+    }
+}
